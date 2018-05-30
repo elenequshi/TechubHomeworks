@@ -1,0 +1,105 @@
+#main {
+    margin:150px 300px;
+    width:700px;
+    height:300px;
+    border:1px solid black;
+    cursor:pointer;
+}
+ .a {
+    background-color:gold;
+ margin:0px 5px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:0px solid black;
+    border-radius: 300px;
+    cursor:pointer;
+}
+.b {
+    background-color:aqua;
+ margin:0px 55px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:0px solid black;
+    border-radius: 300px;
+    cursor:pointer;
+}
+.c {
+    background-color:green;
+ margin:0px 55px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:0px solid black;
+    border-radius: 300px;
+    cursor:pointer;
+}
+.d {
+    background-color:palevioletred;
+ margin:0px 55px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:0px solid black;
+    border-radius: 300px;
+    cursor:pointer;
+}
+.e {
+    background-color:lawngreen;
+ margin:0px 5px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:0px solid black;
+    border-radius: 300px;
+    cursor:pointer;
+}
+.f {
+    background-color:darkmagenta;
+ margin:0px 55px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border:0px solid black;
+    border-radius: 300px;
+    cursor:pointer;
+}
+
+
+ 
+.a:hover ~ #main {
+     background-color:gold;
+ }
+ .b:hover ~ #main {
+     background-color:aqua;
+ }
+ .c:hover ~ #main {
+    background-color:green;
+}
+ .d:hover ~ #main {
+    background-color:palevioletred;
+}
+  .e:hover ~ #main {
+    background-color:lawngreen;
+}
+ .f:hover ~ #main {
+    background-color:darkmagenta;
+}
+ .g:hover ~ #main {
+    background-color:yellow;
+}
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
